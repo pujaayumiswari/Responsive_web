@@ -1,0 +1,6 @@
+// QUERY
+//table A = UserId(wildan, zaki), age(27,25)
+//Table B = item(notebook,bag , notebook, bag, mobilePhone), userId(wildan, wildan, zaki, zaki, zaki)
+
+//Result_1 = Select item from table A 
+//Result_2 = Select userId from table A Left Join Table B on A.userId = B.userId

@@ -1,0 +1,23 @@
+1.Monolithic Architecture:
+
+Teknologi yang digunakan:
+Bahasa pemrograman seperti Java, C#, atau PHP untuk backend.
+Framework seperti Spring (Java), .NET (C#), atau Laravel (PHP).
+Database seperti MySQL, PostgreSQL, atau SQL Server.
+Server seperti Apache atau Nginx.
+
+2.Microservices Architecture:
+
+Bahasa pemrograman seperti Go, Node.js, atau Python untuk setiap layanan.
+Framework atau platform seperti Spring Boot (Java), Express.js (Node.js), atau Flask (Python).
+Penggunaan teknologi container seperti Docker untuk mengemas layanan-layanan.
+Orkestrasi menggunakan Kubernetes atau Docker Swarm.
+Message brokers seperti RabbitMQ atau Apache Kafka untuk komunikasi antar layanan.
+3.
+Serverless Architecture:
+
+Teknologi yang digunakan:
+Fungsi-fungsi (functions) seperti AWS Lambda, Azure Functions, atau Google Cloud Functions untuk menjalankan kode tanpa server.
+Layanan penyimpanan seperti Amazon S3, Google Cloud Storage, atau Azure Blob Storage untuk menyimpan data.
+Database serverless seperti Amazon DynamoDB, Firestore, atau Azure Cosmos DB untuk menyimpan data secara fleksibel dan scalable.
+Layanan manajemen API Gateway untuk mengekspos fungsi-fungsi sebagai API yang dapat diakses.

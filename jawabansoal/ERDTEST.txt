@@ -1,0 +1,44 @@
+1 / ERD Test#01
+function generatePattern(n) {
+  for (let i = 1; i <= n; i++) {
+    let pattern = '';
+    for (let j = 1; j <= n; j++) {
+      if (j <= i) {
+        pattern += j;
+      } else {
+        pattern += '*';
+      }
+    }
+    for (let k = i + 1; k <= n + 1; k++) {
+      pattern += k;
+    }
+    console.log(pattern)
+  }
+}
+
+generatePattern(5);
+
+generatePattern(4);
+
+
+//ERD TEST #02
+function findMaxDifference(arr) {
+  let theDifference = 0;
+  let minValue = arr[0];
+
+  for (let i = 1; i < arr.length; i++) {
+    const diff = arr[i] - minValue;
+    if (diff > theDifference) {
+      theDifference = diff;
+    }
+    if (arr[i] < minValue) {
+      minValue = arr[i];
+    }
+  }
+
+  return theDifference;
+}
+
+const harga = [10, 7, 5, 8, 11, 9, 1];
+const result = findMaxDifference(harga);
+console.log(result);

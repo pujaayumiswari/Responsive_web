@@ -1,0 +1,7 @@
+- cypress adalah sebuah tool untuk melakukan pengujian dan debugging apikasi web dimana cypress ini menggunakan platform node js dan javascript
+-kubernetes adalah sebuah platform open source untuk mengelola workloads alikasi yang ada di kontainer
+-ORM adalah teknik merbah sebuah table menjadi sebuah objek
+-class adalah merupakan salah satu identitas dalam html tetapi masih bisa di tulis dengan berulang
+-function adalah sebuah fungsi dari suatu program yang di buat dengan di dalamnya ada fungsi" tertentu dengan logika pemrograman
+-devop adalah sebuah aplikasi yang di rancang untuk membantu programmer dalam membangun dan mengembangkan sebuah aplikasi
+-docker adalah sebuah perangkat lunak untuk membuat, menguji dan menerapkan sebuah aplikasi web dengan cepat.
